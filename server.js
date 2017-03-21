@@ -16,4 +16,4 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use(logger('dev'));
 app.use(router);
 app.use('/', express.static('app'));
-app.listen(80);
+app.listen(8080);
