@@ -31,7 +31,7 @@ angular
 }])
 
 .constant('serverSettings', {
-          webApi: 'http://matrix.projects.mrt.ac.lk:8080'
+          webApi: 'http://matrix.projects.mrt.ac.lk:3000'
 })
 
 
