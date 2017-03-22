@@ -20,7 +20,7 @@
 
         function register(details) {
             return $http({
-                url: webApi + '/register',
+                url: webApi + '/signup',
                 method: "POST",
                 data: details,
                 headers: { 'Content-Type': 'application/json' }
