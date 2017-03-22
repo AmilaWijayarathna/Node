@@ -13,7 +13,7 @@
         $scope.register = function () {
          registerService.register($scope.details).then(function success(data) {
             if(data.status==200){
-                $state.go('app.login');
+                $state.go('app.map');
                 window.alert("Success register!");
              }else{
                  $state.go('app.register');
